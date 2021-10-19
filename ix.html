@@ -1,0 +1,489 @@
+<!doctype html>
+<html>
+	<head>
+		<title>KBC</title>
+		<meta charset="utf-8">
+		<script type="text/javascript">
+			/*Part 1: Connecting XML*/
+			var xmlhttp;
+			if (window.XMLHttpRequest){
+				xmlhttp = new XMLHttpRequest();
+			}else{
+				xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			xmlhttp.open("GET", "kbc.xml", false);
+			xmlhttp.send();
+
+			/*Part 2: Creating Random Array*/
+			var rnum = [];
+			for (var i = 0; i<=14; i++){
+				var status = "success";
+				var cnum = Math.round(Math.random()*87);
+				for (var j = 0; j<rnum.length; j++){
+					if (cnum==rnum[j]){
+						status = "failure";
+						break;
+					}
+				}
+				if (status=="success"){
+					rnum[i] = cnum;
+				}else{
+					i--;
+				}
+			}
+
+			var name;
+			
+			/*Part 3: Getting User's Name*/
+			function user(){
+
+				var user_bg = document.createElement("div");
+				user_bg.id="user_bg";
+				user_bg.style.backgroundColor="rgba(0,0,0,0.3)";
+				user_bg.style.width="1200px";
+				user_bg.style.height="900px";
+				user_bg.style.margin="auto";
+				user_bg.style.marginTop="20px";
+				
+				var user_main = document.createElement("div");
+				user_main.id="user_main";
+				user_main.style.backgroundColor="#ababab";
+				user_main.style.position="absolute";
+				user_main.style.marginTop="300px";
+				user_main.style.marginLeft="300px";
+				user_main.style.width="450px";
+				user_main.style.height="300px";
+				user_main.style.paddingLeft="150px";
+				
+				var user_text = document.createElement("div");
+				user_text.id="user_text";
+				user_text.style.backgroundColor="red";
+				user_text.style.fontSize="20px";
+				user_text.style.width="300px";
+				user_text.style.height="40px";
+				user_text.style.paddingTop="10px";
+				user_text.style.marginTop="50px";
+				user_text.style.textAlign="center";
+				
+				var user_text_con = document.createTextNode("Enter Your Name: ");
+				
+				var user_name = document.createElement("input");
+				user_name.id="user_name";
+				user_name.type="text";
+				user_name.style.width="300px";
+				user_name.style.height="50px";
+				user_name.style.marginTop="10px";
+				
+				var user_submit = document.createElement("div");
+				user_submit.id="user_submit";
+				user_submit.style.backgroundColor="#000000";
+				user_submit.setAttribute("onClick", "user_submit_click()");
+				user_submit.style.width="20px";
+				user_submit.style.height="20px";
+				user_submit.style.paddingTop="20px";
+				user_submit.style.paddingBottom="20px";
+				user_submit.style.paddingLeft="50px";
+				user_submit.style.paddingRight="50px";
+				user_submit.style.marginTop="10px";
+				user_submit.style.marginLeft="90px";
+				user_submit.style.color="#ffffff";
+				
+				var user_break = document.createElement("br");
+				
+				var user_submit_con = document.createTextNode("GO!!");
+				
+				document.body.appendChild(user_bg);
+				document.getElementById("user_bg").appendChild(user_main);
+				document.getElementById("user_main").appendChild(user_text);
+				document.getElementById("user_main").appendChild(user_break);
+				document.getElementById("user_main").appendChild(user_name);
+				document.getElementById("user_main").appendChild(user_submit);
+				document.getElementById("user_submit").appendChild(user_submit_con);
+				document.getElementById("user_text").appendChild(user_text_con);
+			}
+			
+			function user_submit_click(){
+				name =	document.getElementById("user_name").value;
+				document.getElementById('user_bg').style.display="none";
+			}
+			
+			/*Part 4: Making Welcome Screen*/
+			function welcome(){
+				var welcome_bg = document.createElement("div");
+				welcome_bg.id = "welcome_bg";
+				welcome_bg.style.backgroundColor="rgba(255,255,255,0.3)";
+				welcome_bg.style.position="absolute";
+				welcome_bg.style.width="100%";
+				welcome_bg.style.height="100%";
+				
+				var welcome_main = document.createElement("div");
+				welcome_main.id = "welcome_main";
+				welcome_main.style.backgroundColor="red";
+				welcome_main.style.width="1000px";
+				welcome_main.style.height="650px";
+				welcome_main.style.paddingTop="50px";
+				welcome_main.style.paddingBottom="50px";
+				welcome_main.style.paddingLeft="100px";
+				welcome_main.style.paddingRight="100px";
+				welcome_main.style.margin="auto";
+				welcome_main.style.marginTop="30px";
+
+				var welcome_header = document.createElement("div");
+				welcome_header.id = "welcome_header";
+				welcome_header.style.backgroundColor="blue";
+				welcome_header.style.width="1000px";
+				welcome_header.style.height="200px";
+				welcome_header.style.fontSize="100px";
+				welcome_header.style.textAlign="center";
+
+				var welcome_header_text = document.createTextNode("WELCOME!!!");
+
+				var welcome_cont =document.createElement("form");
+				welcome_cont.id = "welcome_cont";
+				welcome_cont.style.backgroundColor="green";
+				welcome_cont.style.width="940px";
+				welcome_cont.style.height="290px";
+				welcome_cont.style.padding="30px";
+				welcome_cont.style.textAlign="center";
+
+				var welcome_username = document.createElement("input");
+				welcome_username.id = "welcome_username";
+				welcome_username.type = "text";
+				welcome_username.value = name;
+				welcome_username.readOnly = "read-only";
+				welcome_username.style.marginTop="40px";
+
+				var welcome_break = document.createElement("br");
+
+				var welcome_go = document.createElement("input");
+				welcome_go.id = "welcome_go";
+				welcome_go.setAttribute("onClick", "welcome_go_click()");
+				welcome_go.value = "GO!";
+				welcome_go.type = "button";
+				welcome_go.style.width="100px";
+				welcome_go.style.marginTop="80px";
+				
+				document.body.appendChild(welcome_bg);
+				document.getElementById("welcome_bg").appendChild(welcome_main);
+				document.getElementById("welcome_main").appendChild(welcome_header);
+				document.getElementById("welcome_main").appendChild(welcome_cont);
+				document.getElementById("welcome_cont").appendChild(welcome_username);
+				document.getElementById("welcome_cont").appendChild(welcome_break);
+				document.getElementById("welcome_cont").appendChild(welcome_go);
+				document.getElementById("welcome_header").appendChild(welcome_header_text);
+			}
+			
+			function welcome_go_click(){
+				document.getElementById("welcome_bg").style.display="none";
+			}
+
+			/*Part 5: Creating Interface Screen*/
+			function interface(){
+				var all = document.createElement("div");
+				all.id = "all";
+				all.style.width="1200px";
+				all.style.height="780px";
+				all.style.margin="auto";
+
+				var main = document.createElement("div");
+				main.id = "main";
+				main.style.backgroundColor="red";
+				main.style.width="900px";
+				main.style.height="750px";
+				main.style.float="left";
+				main.style.marginTop="30px";
+				
+				var lifeline_bx = document.createElement("div");
+				lifeline_bx.id = "lifeline_bx";
+				lifeline_bx.style.backgroundColor="yellow";
+				lifeline_bx.style.width="880px";
+				lifeline_bx.style.height="100px";
+				lifeline_bx.style.paddingLeft="10px";
+				lifeline_bx.style.paddingRight="10px";
+
+				var lifeline = document.createElement("div");
+				lifeline.className = "lifeline";
+				lifeline.style.backgroundColor="green";
+				lifeline.style.width="200px";
+				lifeline.style.height="100px";
+				lifeline.style.borderRadius="50%";
+				lifeline.style.float="left";
+				lifeline.style.marginLeft="10px";
+				lifeline.style.marginRight="10px";
+
+				var F50 = document.createTextNode("50-50");
+				var AP = document.createTextNode("Audience Pole");
+				var Phone_Friend = document.createTextNode("Phone");
+				
+				var content = document.createElement("div");
+				content.id = "content";
+				content.style.backgroundColor="brown";
+				content.style.width="850px";
+				content.style.height="550px";
+				content.style.marginTop="40px";
+				content.style.marginBottom="40px";
+				content.style.marginLeft="25px";
+				content.style.marginRight="25px";
+				content.style.paddingTop="20px";
+				content.style.float="left";
+
+				var ques = document.createElement("div");
+				ques.id = "ques";
+				ques.style.backgroundColor="orange";
+				ques.style.width="800px";
+				ques.style.height="150px";
+				ques.style.marginTop="35px";
+				ques.style.marginLeft="25px";
+				ques.style.marginRight="25px";
+
+				var opt1 = document.createElement("input");
+				opt1.type = "button";
+				opt1.value = "";
+				opt1.id = "opt1";
+				opt1.className = "opt";
+				opt1.onClick = "check(1)";
+
+				var opt2 = document.createElement("input");
+				opt2.type = "button";
+				opt2.value = "";
+				opt2.id = "opt2";
+				opt2.className = "opt";
+				opt2.onClick = "check(2)";
+
+				var opt3 = document.createElement("input");
+				opt3.type = "button";
+				opt3.value = "";
+				opt3.id = "opt3";
+				opt3.className = "opt";
+				opt3.onClick = "check(3)";
+
+				var opt4 = document.createElement("input");
+				opt4.type = "button";
+				opt4.value = "";
+				opt4.id = "opt4";
+				opt4.className = "opt";
+				opt4.onClick = "check(4)";
+				
+				var prize = document.createElement("ul");
+				prize.id = "prize";
+				prize.style.backgroundColor="blue";
+				prize.style.width="300px";
+				prize.style.height="750px";
+				prize.style.float="right";
+				prize.style.margin="0px";
+				prize.style.padding="0px";
+				prize.style.listStyle="none";
+				prize.style.marginTop="30px";
+				
+				var item_prize = document.createElement("li");
+				item_prize.style.backgroundColor="green";
+				item_prize.style.width="200px";
+				item_prize.style.height="20px";
+				item_prize.style.marginTop="20px";
+				item_prize.style.marginBottom="25p";
+				item_prize.style.marginLeft="50px";
+				item_prize.style.marginRight="50px";
+				item_prize.style.padding="0px";
+				item_prize.style.textAlign="center";
+
+				document.body.appendChild(all);
+				document.getElementById("all").appendChild(main);
+				document.getElementById("all").appendChild(prize);
+				document.getElementById("main").appendChild(lifeline_bx);
+				document.getElementById("main").appendChild(content);
+				for (var i = 0; i<=3; i++){
+					document.getElementById("lifeline_bx").appendChild(lifeline);
+				}
+				document.getElementById("content").appendChild(ques);
+				document.getElementById("content").appendChild(opt1);
+				document.getElementById("content").appendChild(opt2);
+				document.getElementById("content").appendChild(opt3);
+				document.getElementById("content").appendChild(opt4);
+				
+				var score = ["2000", "4000", "10000", "20000", "50000", "100000", "2500000", "5000000", "7500000", "10000000", "20000000", "40000000", "60000000", "80000000", "100000000"];
+				for (var i = 0; i<=14; i++){
+					document.getElementsByTagName("li").appendChild(document.createTextNode(score[i]));
+					document.getElementById("prize").appendChild(item_prize);
+				}
+				
+				for (var h = 0; h<document.getElementsByClassName("opt").length; h++){
+					document.getElementsByClassName("opt")[h].style.backgroundColor="green";
+					document.getElementsByClassName("opt")[h].style.width="200px";
+					document.getElementsByClassName("opt")[h].style.height="20px";
+					document.getElementsByClassName("opt")[h].style.marginTop="20px";
+					document.getElementsByClassName("opt")[h].style.marginBottom="25px";
+					document.getElementsByClassName("opt")[h].style.marginLeft="50px";
+					document.getElementsByClassName("opt")[h].style.marginRight="50px";
+					document.getElementsByClassName("opt")[h].style.padding="0px";
+					document.getElementsByClassName("opt")[h].style.textAlign="center";
+				}
+
+				document.getElementById("opt1").style.marginTop="30px";
+				document.getElementById("opt1").style.marginRight="50px";
+				document.getElementById("opt2").style.marginTop="30px";
+				document.getElementById("opt2").style.marginLeft="50px";
+				document.getElementById("opt3").style.marginRight="50px";
+				document.getElementById("opt4").style.marginLeft="50px";
+			}
+
+			/*Part 6: Printing Q&A*/
+			i=0;
+			var val50 = "live";
+			var valPhone = "live";
+			var valAP = "live";
+
+			function print(){
+				document.getElementById("ques").innerHTML = xmlhttp.responseXML.getElementsByTagName("quest")[(rnum[i])].childNodes[1].childNodes[0].nodeValue;
+				document.getElementById("ques").innerHTML = xmlhttp.responseXML.getElementsByTagName("quest")[(rnum[i])].childNodes[3].childNodes[0].nodeValue;
+				document.getElementById("ques").innerHTML = xmlhttp.responseXML.getElementsByTagName("quest")[(rnum[i])].childNodes[5].childNodes[0].nodeValue;
+				document.getElementById("ques").innerHTML = xmlhttp.responseXML.getElementsByTagName("quest")[(rnum[i])].childNodes[7].childNodes[0].nodeValue;
+				document.getElementById("ques").innerHTML = xmlhttp.responseXML.getElementsByTagName("quest")[(rnum[i])].childNodes[9].childNodes[0].nodeValue;
+			}
+
+			function Fifty_Fifty(){
+				if (val50=="live"){
+					var fifty_fifty = [2,3,4,5];
+					for (var a = 0; a<=3; a++){
+						if ((fifty_fifty[a]-1)==xmlhttp.responseXML.getElementsByTagName("quest")[(rnum[i])].childNodes[11].childNodes[0].nodeValue){
+							delete fifty_fifty[a];
+						}
+					}
+					var b = Math.round(Math.Random()*2);
+					delete fifty_fifty[b];
+					document.getElementByClassName("lifeline")[0].style.backgroundColor="grey";
+					document.getElementByClassName("lifeline")[0].innerHTML="";
+					val50 = "used";
+				}
+				if (val50=="used"){
+					return false;
+				}
+			}
+
+			var count = 0;
+
+			function phone(){
+				if (valphone=="live"){
+					 var phone_bg = document.createElement("div");
+					 phone_bg.id = "phone_bg";
+					 phone_bg.style.backgroundColor="rgba(0,0,0,0.3)";
+					 phone_bg.style.position="absolute";
+					 phone_bg.style.width="100%";
+					 phone_bg.style.height="100%";
+
+					var phone_timer = document.createElement("div");
+					phone_timer.id = "phone_timer";
+					phone_timer.style.width="50px";
+					phone_timer.style.height="50px";
+					phone_timer.style.position="absolute";
+					phone_timer.style.top="50%";
+				 	phone_timer.style.margin="auto";
+					phone_timer.style.marginTop="-25px";
+					phone_timer.style.color="white";
+
+					document.getElementById("phone_bg").appendChild(phone_timer);
+					document.body.appendChild("phone_bg");
+					}
+				count++;
+			}
+
+			function X(){
+				if ((count>=0)&&(count<=30)){
+					setInterval(phone(),1000);
+				}else{
+					valPhone = "used";
+					return false;
+				}
+			}
+
+			function pole(){
+				if (valAP=="live"){
+					var pole_bg = document.createElement("div");
+					pole_bg.id = "pole_bg";
+					pole_bg.style.backgroundColor="rgba(0,0,0,0.3)";
+					pole_bg.style.position="absolute";
+					pole_bg.style.width="100%";
+					pole_bg.style.height="100%";
+
+					var pole_main = document.createElement("div");
+					pole_main.id = "pole_main";
+					pole_main.style.backgroundColor="#ababab";
+					pole_main.style.width="600px";
+					pole_main.style.height="500px";
+					pole_main.style.margin="auto";
+					pole_main.style.marginTop="50px";
+					pole_main.style.paddingTop="50px";
+					pole_main.style.paddingLeft="50px";
+
+					var pole_graph = document.createElement("div");
+					pole_graph.id = "pole_graph";
+					pole_graph.style.width="500px";
+					pole_graph.style.height="400px";
+					pole_graph.style.borderLeft="2px";
+					pole_graph.style.borderBottom="2px";
+
+					var pole_graph_rep = document.createElement("div");
+					pole_graph_rep.className = "pole_graph_rep";
+					pole_graph_rep.style.float="left";
+					pole_graph_rep.style.width="50px";
+					pole_graph_rep.style.height="100px";
+					pole_graph_rep.style.marginLeft="60px";
+					pole_graph_rep.style.marginRight="60px";
+
+					var pole_foot = document.createElement("div");
+					pole_foot.id = "pole_foot";
+					pole_foot.style.width="496px";
+					pole_foot.style.height="100px";
+
+					var pole_foot_rep = document.createElement("div");
+					pole_foot_rep.className = "pole_foot_rep";
+					pole_foot_rep.style.float="left";
+					pole_foot_rep.style.width="50px";
+					pole_foot_rep.style.height="10px";
+					pole_foot_rep.style.paddingTop="20px";
+					pole_foot_rep.style.paddingBottom="20px";
+					pole_foot_rep.style.fontSize="10px";
+					pole_foot_rep.style.marginLeft="60px";
+					pole_foot_rep.style.marginRight="60px";
+
+					for (var z = 0; z<=3; z++){
+						document.getElementById("pole_graph").appendChild(pole_graph_rep);
+					}
+					for (var z = 0; z<=3; z++){
+						document.getElementById("pole_foot").appendChild(pole_foot_rep);
+					}
+					document.getElementById("pole_main").appendChild(pole_graph);
+					document.getElementById("pole_main").appendChild(pole_foot);
+					document.getElementById("pole_bg").appendChild(pole_main);
+					document.body.appendChild(pole_bg);
+
+					setTimeOut(Y(), 10000);
+				}
+			}
+
+			function Y(){
+				valAP = "used";
+				return false;
+			}
+
+			/*Part 7: Checking Whether Answer is Correct*/
+			function check(x){
+				if (x==xmlhttp.responseXML.getElementsByTagName("quest")[(rnum[i])].childNodes[11].childNodes[0].nodeValue){
+					document.getElementByTagName("li").childNodes[i].style.backgroundColor="orange";
+					i++;
+					print();
+				}else{
+					location.reload();
+				}
+			}
+
+			function Z(){
+				user();
+				welcome();
+				interface();
+			}
+		</script>
+	</head>
+	<body onLoad="Z()">
+		
+	</body>
+</html>

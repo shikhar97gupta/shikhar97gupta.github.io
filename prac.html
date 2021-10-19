@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+		<title>KBC</title>
+		<meta charset="utf-8">
+		<script type="text/javascript">
+			/*var user = prompt("Enter your name: ");*/
+
+			function welcome(){
+				var a = document.createElement("input");
+				a.className = "bx";
+				a.id = "bx";
+				/*a.setAttribute("id", "bx");*/
+				a.style.width = "200px";
+				a.style.height = "200px";
+				a.value = "XXXXXX";
+				/*a.readOnly = "read-only"; */
+				/*var t = document.createTextNode("XXXXXX");*/
+				/*a.appendChild(t);*/
+				/*document.getElementById("bx").innerHTML = "XXXXXXX";*/
+				document.body.appendChild(a);
+			}
+			function refresher(){
+				location.reload();
+			}
+		</script>
+	</head>
+	<body onLoad="welcome()">
+		<input type="button" onClick="refresher()">
+	</body>
+</html>

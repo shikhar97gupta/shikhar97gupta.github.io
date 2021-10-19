@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kbc>
+	<quest>
+		<ques>Governor is appointed by the ……</ques>
+		<opt1>Prime Minister</opt1> 
+		<opt2>President</opt2> 
+		<opt3>Chief Justice of India</opt3> 
+		<opt4>Chief Justice of the concerned state high court</opt4> 
+		<ca>2</ca> 
+		<ap>6,73,5,16</ap>
+	</quest> 
+	<quest>
+		<ques>Find the odd one out.</ques>
+		<opt1>A. Ramaswamy</opt1> 
+		<opt2>Pankaj Advani</opt2> 
+		<opt3>P. Hari Krishna</opt3> 
+		<opt4>S.S. Ganguli</opt4> 
+		<ca>2</ca> 
+		<ap>19,74,0,7</ap>
+	</quest> 
+	<quest>
+		<ques>My passage from India is a book authored by….</ques>
+		<opt1>E.M. Foster</opt1> 
+		<opt2>Ismail Merchant</opt2> 
+		<opt3>Nairad C. Choudhary</opt3> 
+		<opt4>Mulk Raj Anand</opt4> 
+		<ca>2</ca> 
+		<ap>16,28,30,26</ap>
+	</quest> 
+	<quest>
+		<ques>Coolie is a famous work of….</ques>
+		<opt1>Khushwant Singh</opt1> 
+		<opt2>V.S. Naipaul</opt2> 
+		<opt3>Mulk Raj Anand</opt3> 
+		<opt4>R.K. Narayan</opt4> 
+		<ca>3</ca> 
+		<ap>46,5,47,2</ap>
+	</quest> 
+	<quest>
+		<ques>This personality is credited with the invention of e-mail. Can you identify him from the given?</ques>
+		<opt1>T. Leo Burns</opt1> 
+		<opt2>Larry Page</opt2> 
+		<opt3>Ray Tomlinson</opt3> 
+		<opt4>None of these</opt4> 
+		<ca>3</ca> 
+		<ap>15,22,54,9</ap>
+	</quest> 
+	<quest>
+		<ques>When did the Second Round Table conference took place?</ques>
+		<opt1>1915</opt1> 
+		<opt2>1922</opt2> 
+		<opt3>1928</opt3> 
+		<opt4>1931</opt4> 
+		<ca>4</ca> 
+		<ap>6,0,29,65</ap>
+	</quest> 
+	<quest>
+		<ques>‘Ansett’ is the name of the domestic airline of which of the following countries?</ques>
+		<opt1>New Zealand</opt1> 
+		<opt2>Germany</opt2> 
+		<opt3>The Netherlands</opt3> 
+		<opt4>Australia</opt4> 
+		<ca>4</ca> 
+		<ap>35,5,4,56</ap>
+	</quest> 
+	<quest>
+		<ques>Metals which chemically behave both as metals and non-metals is called.</ques>
+		<opt1>alloys</opt1> 
+		<opt2>metalloids</opt2> 
+		<opt3>halogens</opt3> 
+		<opt4>chalkogens</opt4> 
+		<ca>2</ca> 
+		<ap>32,50,16,2</ap>
+	</quest> 
+	<quest>
+		<ques>Which of the following articles of the Constitution deals with a financial emergency?</ques>
+		<opt1>Article 352</opt1> 
+		<opt2>Article 356</opt2> 
+		<opt3>Article 360</opt3> 
+		<opt4>Article 370</opt4> 
+		<ca>3</ca> 
+		<ap>4,38,40,18</ap>
+	</quest> 
+	<quest>
+		<ques>The largest river (in terms of volume of water it carries) is….</ques>
+		<opt1>Nile</opt1> 
+		<opt2>Mississippi Missouri</opt2> 
+		<opt3>Amazon</opt3> 
+		<opt4>Yangtze</opt4> 
+		<ca>3</ca> 
+		<ap>35,11,54,0</ap>
+	</quest> 
+	<quest>
+		<ques>The World Environment Day is celebrated through the world on …… every year.</ques>
+		<opt1>May 8</opt1> 
+		<opt2>June 5</opt2> 
+		<opt3>July 11</opt3> 
+		<opt4>August 27</opt4> 
+		<ca>2</ca> 
+		<ap>19,50,7,24</ap>
+	</quest> 
+	<quest>
+		<ques>FICCI expands to….</ques>
+		<opt1>Federation of Indian Companies of Commerce and Instrumentation</opt1> 
+		<opt2>Federation of Indian Chambers of Commerce and Industries</opt2> 
+		<opt3>Federation of International Chambers of Commerce and Industries</opt3> 
+		<opt4>Federation of Indian Conglomerate of Commerce and Industries</opt4> 
+		<ca>2</ca> 
+		<ap>3,82,9,6</ap>
+	</quest> 
+	<quest>
+		<ques>This place is also known as the ‘Manchester of South India’. Identify it from the given options.</ques>
+		<opt1>Madurai</opt1> 
+		<opt2>Coimbatore</opt2> 
+		<opt3>Bangalore</opt3> 
+		<opt4>Thiruvananthapuram</opt4> 
+		<ca>2</ca> 
+		<ap>17,29,26,28</ap>
+	</quest> 
+	<quest>
+		<ques>Approximately what portion of the world’s population resides in India?</ques>
+		<opt1>One-third</opt1> 
+		<opt2>One-fourth</opt2> 
+		<opt3>One-fifth</opt3> 
+		<opt4>One-sixth</opt4> 
+		<ca>4</ca> 
+		<ap>22,6,29,43</ap>
+	</quest> 
+	<quest>
+		<ques>Decibel is the unit of….</ques>
+		<opt1>frequency</opt1> 
+		<opt2>wavelength</opt2> 
+		<opt3>sound</opt3> 
+		<opt4>luminous intensity</opt4> 
+		<ca>3</ca> 
+		<ap>19,2,71,8</ap>
+	</quest> 
+	<quest>
+		<ques>Which of the following trains is India’s first certified ISO-9001 train?</ques>
+		<opt1>Mumbai-Delhi Shatabdi Express</opt1> 
+		<opt2>Magadha Express</opt2> 
+		<opt3>Bhopal Express</opt3> 
+		<opt4>AP Express</opt4> 
+		<ca>3</ca> 
+		<ap>21,2,73,4</ap>
+	</quest> 
+	<quest>
+		<ques>Central Leather Research Institute (CLRI) is based at…..</ques>
+		<opt1>Varanasi</opt1> 
+		<opt2>Chennai</opt2> 
+		<opt3>Hyderabad</opt3> 
+		<opt4>Kanpur</opt4> 
+		<ca>2</ca> 
+		<ap>8,73,18,1</ap>
+	</quest> 
+	<quest>
+		<ques>December 1 is celebrated as the…… throughout the world.</ques>
+		<opt1>World Health Day</opt1> 
+		<opt2>World AIDS Day</opt2> 
+		<opt3>World Human Rights Day</opt3> 
+		<opt4>World Habitat Day</opt4> 
+		<ca>2</ca> 
+		<ap>3,87,0,10</ap>
+	</quest> 
+	<quest>
+		<ques>Who wrote the book The Algebra of Infinite Justice?</ques>
+		<opt1>Virama Seth</opt1> 
+		<opt2>Rohinton Mistry</opt2> 
+		<opt3>Anurag Mathur</opt3> 
+		<opt4>Arundhati Roy</opt4> 
+		<ca>4</ca> 
+		<ap>7,1,0,92</ap>
+	</quest> 
+	<quest>
+		<ques>‘Manas Tiger Sanctuary’ is in….</ques>
+		<opt1>a Greek philosopher</opt1> 
+		<opt2>an Indian astronomer and famous mathematician</opt2> 
+		<opt3>a Sanskrit grammarian of Vedic times</opt3> 
+		<opt4>great poet of ancient times</opt4> 
+		<ca>2</ca> 
+		<ap>38,56,4,2</ap>
+	</quest> 
+	<quest>
+		<ques>Panini was……</ques>
+		<opt1>a Greek philosopher</opt1> 
+		<opt2>an Indian astronomer and famous mathematician</opt2> 
+		<opt3>a Sanskrit grammarian of Vedic times</opt3> 
+		<opt4>great poet of ancient times.</opt4> 
+		<ca>3</ca> 
+		<ap>40,0,60,0</ap>
+	</quest> 
+	<quest>
+		<ques>Mein Kampf is authored by…</ques>
+		<opt1>Napoleon Bonaparte</opt1> 
+		<opt2>Karl Marx</opt2> 
+		<opt3>Adolf Hitler</opt3> 
+		<opt4>Benito Mussolini</opt4> 
+		<ca>3</ca> 
+		<ap>35,10,54,1</ap>
+	</quest> 
+	<quest>
+		<ques>Which of the following is the largest and the deepest ocean of the world?</ques>
+		<opt1>Arctic</opt1> 
+		<opt2>Atlantic</opt2> 
+		<opt3>Pacific</opt3> 
+		<opt4>Indian</opt4> 
+		<ca>3</ca> 
+		<ap>13,37,43,7</ap>
+	</quest> 
+	<quest>
+		<ques>The literacy rate of India is….</ques>
+		<opt1>57.86%</opt1> 
+		<opt2>61.34%</opt2> 
+		<opt3>63.98%</opt3> 
+		<opt4>65.38%</opt4> 
+		<ca>4</ca> 
+		<ap>13,12,3,72</ap>
+	</quest> 
+	<quest>
+		<ques>Which Indian state has the least literacy rate?</ques>
+		<opt1>Bihar</opt1> 
+		<opt2>Rajasthan</opt2> 
+		<opt3>Arunachal Pradesh</opt3> 
+		<opt4>Orissa</opt4> 
+		<ca>1</ca> 
+		<ap>55,28,7,10</ap>
+	</quest> 
+	<quest>
+		<ques>SAARC was formed in ……</ques>
+		<opt1>1982</opt1> 
+		<opt2>1984</opt2> 
+		<opt3>1985</opt3> 
+		<opt4>1986</opt4> 
+		<ca>3</ca> 
+		<ap>29,12,51,8</ap>
+	</quest> 
+	<quest>
+		<ques>Which of the following is not the member of the European Union?</ques>
+		<opt1>Greece</opt1> 
+		<opt2>Finland</opt2> 
+		<opt3>Norway</opt3> 
+		<opt4>United Kingdom</opt4> 
+		<ca>3</ca> 
+		<ap>31,19,37,13</ap>
+	</quest> 
+	<quest>
+		<ques>ASEAN is headquartered at….</ques>
+		<opt1>Male</opt1> 
+		<opt2>Kathmandu</opt2> 
+		<opt3>Jakarta</opt3> 
+		<opt4>Kuala Lumpur</opt4> 
+		<ca>3</ca> 
+		<ap>27,25,41,7</ap>
+	</quest> 
+	<quest>
+		<ques>This river was also called as the Ganges of the South, Name the river from the given options.</ques>
+		<opt1>Godavari</opt1> 
+		<opt2>Krishna</opt2> 
+		<opt3>Cauvery</opt3> 
+		<opt4>None of these</opt4> 
+		<ca>3</ca> 
+		<ap>36,5,56,3</ap>
+	</quest> 
+	<quest>
+		<ques>Which Indian state is inhabited by ‘Jaintiya tribes’?</ques>
+		<opt1>Arunachal Pradesh</opt1> 
+		<opt2>Mizoram</opt2> 
+		<opt3>Manipur</opt3> 
+		<opt4>Meghalaya</opt4> 
+		<ca>4</ca> 
+		<ap>17,4,10,69</ap>
+	</quest> 
+	<quest>
+		<ques>The capital of Greece is….</ques>
+		<opt1>Warsaw</opt1> 
+		<opt2>Athens</opt2> 
+		<opt3>Oslo</opt3> 
+		<opt4>Ottawa</opt4> 
+		<ca>2</ca> 
+		<ap>0,100,0,0</ap>
+	</quest> 
+	<quest>
+		<ques>This country is known as the cockpit of Europe. Identify it from the given options.</ques>
+		<opt1>Poland</opt1> 
+		<opt2>Belgium</opt2> 
+		<opt3>Turkey</opt3> 
+		<opt4>Sweden</opt4> 
+		<ca>2</ca> 
+		<ap>0,81,10,9</ap>
+	</quest> 
+	<quest>
+		<ques>Natyashastra is a famous work of….</ques>
+		<opt1>Bana Bhatta</opt1> 
+		<opt2>Lord Brahma</opt2> 
+		<opt3>Kalhan</opt3> 
+		<opt4>Kalidas</opt4> 
+		<ca>2</ca> 
+		<ap>6,63,18,13</ap>
+	</quest> 
+	<quest>
+		<ques>In which of the following years did United Nations (UN) come into existence?</ques>
+		<opt1>1941</opt1> 
+		<opt2>1943</opt2> 
+		<opt3>1944</opt3> 
+		<opt4>1945</opt4> 
+		<ca>4</ca> 
+		<ap>35,25,3,37</ap>
+	</quest> 
+	<quest>
+		<ques>Eduskusta is the name of the Parliament of….</ques>
+		<opt1>Norway</opt1> 
+		<opt2>Finland</opt2> 
+		<opt3>Austria</opt3> 
+		<opt4>Italy</opt4> 
+		<ca>2</ca> 
+		<ap>0,93,6,1</ap>
+	</quest> 
+	<quest>
+		<ques>The line that demarcates the boundary between India and Pakistan is….</ques>
+		<opt1>McMahon Line</opt1> 
+		<opt2>Durand Line</opt2> 
+		<opt3>Radcliffe Line</opt3> 
+		<opt4>None of these</opt4> 
+		<ca>3</ca> 
+		<ap>2,7,87,4</ap>
+	</quest> 
+	<quest>
+		<ques>Which of the following represents the number of judges in The International Court of Justice?</ques>
+		<opt1>12</opt1> 
+		<opt2>15</opt2> 
+		<opt3>18</opt3> 
+		<opt4>21</opt4> 
+		<ca>2</ca> 
+		<ap>36,44,7,13</ap>
+	</quest> 
+	<quest>
+		<ques>Obstetrics is….</ques>
+		<opt1>a branch of medicine that deals with pregnancy, labour and child birth</opt1> 
+		<opt2>a branch of medicine that deals with child diseases</opt2> 
+		<opt3>a branch of medicine that deals with eye related diseases</opt3> 
+		<opt4>a branch of medicine that deals with kidney diseases.</opt4> 
+		<ca>1</ca> 
+		<ap>67,1,13,19</ap>
+	</quest> 
+	<quest>
+		<ques>Which of the following years you would associate with the foundation of Indian National Congress (INC)?</ques>
+		<opt1>1875</opt1> 
+		<opt2>1881</opt2> 
+		<opt3>1883</opt3> 
+		<opt4>1885</opt4> 
+		<ca>4</ca> 
+		<ap>4,28,10,58</ap>
+	</quest> 
+	<quest>
+		<ques>The weight of the man will be……. On the surface of the moon of his actual weight.</ques>
+		<opt1>one-third</opt1> 
+		<opt2>one-fourth</opt2> 
+		<opt3>one-fifth</opt3> 
+		<opt4>one-sixth</opt4> 
+		<ca>4</ca> 
+		<ap>34,0,14,52</ap>
+	</quest> 
+	<quest>
+		<ques>‘AFP’ is the news agency of …….</ques>
+		<opt1>UK</opt1> 
+		<opt2>USA</opt2> 
+		<opt3>Germany</opt3> 
+		<opt4>None of these</opt4> 
+		<ca>4</ca> 
+		<ap>6,14,45,35</ap>
+	</quest> 
+	<quest>
+		<ques>Which of the following represents the year in which Alexander invaded India?</ques>
+		<opt1>323 BC</opt1> 
+		<opt2>324 BC</opt2> 
+		<opt3>326 BC</opt3> 
+		<opt4>328 BC</opt4> 
+		<ca>3</ca> 
+		<ap>39,10,51,0</ap>
+	</quest> 
+	<quest>
+		<ques>Khyber Pass is in……</ques>
+		<opt1>Pakistan</opt1> 
+		<opt2>India</opt2> 
+		<opt3>Myanmar</opt3> 
+		<opt4>Afghanistan</opt4> 
+		<ca>4</ca> 
+		<ap>27,1,0,72</ap>
+	</quest> 
+	<quest>
+		<ques>The first secretary-general of the United Nations was…..</ques>
+		<opt1>U. Thant</opt1> 
+		<opt2>Boutros-Boutros Ghali</opt2> 
+		<opt3>Javier Perez de Cuellar</opt3> 
+		<opt4>Southern Railway is headquartered at…..</opt4> 
+		<ca>2</ca> 
+		<ap>6,64,8,22</ap>
+	</quest> 
+	<quest>
+		<ques>Hyderabad</ques>
+		<opt1>Bangalore</opt1> 
+		<opt2>Secunderabad</opt2> 
+		<opt3>Chennai</opt3> 
+		<opt4>First ministerial meeting of World Trade Organization (WTO) took place at…..</opt4> 
+		<ca>3</ca> 
+		<ap>0,1,99,0</ap>
+	</quest> 
+	<quest>
+		<ques>Washington</ques>
+		<opt1>New York</opt1> 
+		<opt2>Geneva</opt2> 
+		<opt3>Singapore</opt3> 
+		<opt4>The highest producer of milk in the world is…..</opt4> 
+		<ca>4</ca> 
+		<ap>22,4,8,66</ap>
+	</quest> 
+	<quest>
+		<ques>USA</ques>
+		<opt1>China</opt1> 
+		<opt2>India</opt2> 
+		<opt3>Germany</opt3> 
+		<opt4>The first woman chief justice of the high court of India was……</opt4> 
+		<ca>3</ca> 
+		<ap>4,0,76,20</ap>
+	</quest> 
+	<quest>
+		<ques>Fatima Biwi</ques>
+		<opt1>Ruma Pal</opt1> 
+		<opt2>Leila Seth</opt2> 
+		<opt3>None of these</opt3> 
+		<opt4>Identify the correct match:</opt4> 
+		<ca>3</ca> 
+		<ap>4,0,96,0</ap>
+	</quest> 
+	<quest>
+		<ques>May 8     World Health Day</ques>
+		<opt1>May 1     World Literacy Day</opt1> 
+		<opt2>May 17   World Telecommunication Day</opt2> 
+		<opt3>June 5    World Ozone Day</opt3> 
+		<opt4>The world record for the fastest double century is held by….</opt4> 
+		<ca>3</ca> 
+		<ap>30,1,64,5</ap>
+	</quest> 
+	<quest>
+		<ques>The first speaker of Lok Sabha was……</ques>
+		<opt1>K.M. Munshi</opt1> 
+		<opt2>C.D. Deshmukh</opt2> 
+		<opt3>G.V. Mavalankar</opt3> 
+		<opt4>H.J. Kania</opt4> 
+		<ca>3</ca> 
+		<ap>30,17,52,1</ap>
+	</quest> 
+	<quest>
+		<ques>Which of the following represents the number of  nations of the Non-Aligned Movement?</ques>
+		<opt1>54</opt1> 
+		<opt2>75</opt2> 
+		<opt3>93</opt3> 
+		<opt4>118</opt4> 
+		<ca>4</ca> 
+		<ap>0,2,1,97</ap>
+	</quest> 
+	<quest>
+		<ques>This personality is known as the Father of Economics. Can you identify him from the given options?</ques>
+		<opt1>J.M. Keynes</opt1> 
+		<opt2>Adam Smith</opt2> 
+		<opt3>Abraham Maslow</opt3> 
+		<opt4>J.K. Galbraith</opt4> 
+		<ca>2</ca> 
+		<ap>36,60,2,2</ap>
+	</quest> 
+	<quest>
+		<ques>Mount Etna is a famous volcano located in ….</ques>
+		<opt1>Argentina</opt1> 
+		<opt2>Italy</opt2> 
+		<opt3>Mexico</opt3> 
+		<opt4>Philipines</opt4> 
+		<ca>2</ca> 
+		<ap>0,55,38,7</ap>
+	</quest> 
+	<quest>
+		<ques>Where is the Tungabhadra sanctuary located?</ques>
+		<opt1>Madhya Pradesh</opt1> 
+		<opt2>Uttar Pradesh</opt2> 
+		<opt3>Kamataka</opt3> 
+		<opt4>West Bengal</opt4> 
+		<ca>3</ca> 
+		<ap>39,12,40,9</ap>
+	</quest> 
+	<quest>
+		<ques>The agency of United Nations that was set up to strengthen the international cooperation in the field of education and improve the standards of education is…..</ques>
+		<opt1>UNEP</opt1> 
+		<opt2>UNCTAD</opt2> 
+		<opt3>UNESCO</opt3> 
+		<opt4>UNDP</opt4> 
+		<ca>3</ca> 
+		<ap>42,12,46,0</ap>
+	</quest> 
+	<quest>
+		<ques>Reserve Bank of India is headquartered at…..</ques>
+		<opt1>Kolkata</opt1> 
+		<opt2>New Delhi</opt2> 
+		<opt3>Mumbai</opt3> 
+		<opt4>Chennai</opt4> 
+		<ca>3</ca> 
+		<ap>2,1,95,2</ap>
+	</quest> 
+	<quest>
+		<ques>Jana Gana Mana, was accepted as the National Anthem of India by the Constituent Assembly of India in which of the following years?</ques>
+		<opt1>1950</opt1> 
+		<opt2>1949</opt2> 
+		<opt3>1948</opt3> 
+		<opt4>1947</opt4> 
+		<ca>1</ca> 
+		<ap>93,6,0,1</ap>
+	</quest> 
+	<quest>
+	<ques>The person who has climbed Mount Everest the most ------ 17 times ----- is…….</ques>
+		<opt1>Babu Cheri</opt1> 
+		<opt2>Appa Sherpa</opt2> 
+		<opt3>Peter Hillary</opt3> 
+		<opt4>T.W. Tenzing</opt4> 
+		<ca>2</ca> 
+		<ap>24,47,7,22</ap>
+	</quest> 
+	<quest>
+		<ques>Which Indian state has its maximum area under the forest cover?</ques>
+		<opt1>Maharashtra</opt1> 
+		<opt2>Madhya Pradesh</opt2> 
+		<opt3>Arunachal Pradesh</opt3> 
+		<opt4>Kerala</opt4> 
+		<ca>3</ca> 
+		<ap>26,13,61,0</ap>
+	</quest> 
+	<quest>
+		<ques>This personality is known as The Father of Geometry. Identify him from the given options.</ques>
+		<opt1>Euclid</opt1> 
+		<opt2>Pythagoras</opt2> 
+		<opt3>Newton</opt3> 
+		<opt4>Laplace</opt4> 
+		<ca>1</ca> 
+		<ap>33,28,32,7</ap>
+	</quest> 
+	<quest>
+		<ques>The biggest producers of oil within the members of Organization of Petroleum Exporting Countries (OPEC) is….</ques>
+		<opt1>(A)Iraq</opt1> 
+		<opt2>Iran</opt2> 
+		<opt3>Saudi Arabia</opt3> 
+		<opt4>Kuwait</opt4> 
+		<ca>3</ca> 
+		<ap>0,1,61,38</ap>
+	</quest> 
+	<quest>
+		<ques>The first Indian animation film was produced by…..</ques>
+		<opt1>H.S. Bhatwadekar</opt1> 
+		<opt2>Dada Saheb Phalke</opt2> 
+		<opt3>Hiralal Sen</opt3> 
+		<opt4>J.F. Madan</opt4> 
+		<ca>3</ca> 
+		<ap>3,1,91,5</ap>
+	</quest> 
+	<quest>
+		<ques>Who is the founder of the World Economic Forum?</ques>
+		<opt1>George McDonald</opt1> 
+		<opt2>Jack Barry</opt2> 
+		<opt3>Robert Allen</opt3> 
+		<opt4>Klaus Schwab</opt4> 
+		<ca>4</ca> 
+		<ap>18,33,9,40</ap>
+	</quest> 
+	<quest>
+		<ques>Who among the following is the author of Meghdoot?</ques>
+		<opt1>Bana Bhatta</opt1> 
+		<opt2>Kalhana</opt2> 
+		<opt3>Kalidas</opt3> 
+		<opt4>Tulsidas</opt4> 
+		<ca>3</ca> 
+		<ap>18,2,49,31</ap>
+	</quest> 
+	<quest>
+		<ques>Under whose presidentship, the first session of Indian National Congress took place in Bombay?</ques>
+		<opt1>A. D. Hume</opt1> 
+		<opt2>Dadabhai Naoroji</opt2> 
+		<opt3>G.K. Gokhale</opt3> 
+		<opt4>W.C. Banerjee</opt4> 
+		<ca>4</ca> 
+		<ap>34,9,5,52</ap>
+	</quest> 
+	<quest>
+		<ques>How many members are there in the Rajya Sabha?</ques>
+		<opt1>238</opt1> 
+		<opt2>242</opt2> 
+		<opt3>246</opt3> 
+		<opt4>250</opt4> 
+		<ca>4</ca> 
+		<ap>2,38,17,43</ap>
+	</quest> 
+	<quest>
+		<ques>Panama Canal links which of the following water resources?</ques>
+		<opt1>Pacific Ocean and Atlantic Ocean</opt1> 
+		<opt2>Red Sea and Mediterranean Sea</opt2> 
+		<opt3>Red Sea and Caspian Sea</opt3> 
+		<opt4>Atlantic Ocean and Arctic Ocean</opt4> 
+		<ca>1</ca> 
+		<ap>56,6,13,25</ap>
+	</quest> 
+	<quest>
+		<ques>Which of the following rays is NOT harmful?</ques>
+		<opt1>Ultraviolet rays</opt1> 
+		<opt2>X-rays</opt2> 
+		<opt3>Infrared rays</opt3> 
+		<opt4>Short radio waves</opt4> 
+		<ca>4</ca> 
+		<ap>28,30,11,31</ap>
+	</quest> 
+	<quest>
+		<ques>Who is considered as the Father of History?</ques>
+		<opt1>Aristotle</opt1> 
+		<opt2>Herodotus</opt2> 
+		<opt3>Socrates</opt3> 
+		<opt4>Plato</opt4> 
+		<ca>2</ca> 
+		<ap>13,86,0,1</ap>
+	</quest> 
+	<quest>
+		<ques>Who was the person behind the ‘Kuka movement’?</ques>
+		<opt1>Kunwar Singh</opt1> 
+		<opt2>V.B. Phadke</opt2> 
+		<opt3>Guru Ram Singh</opt3> 
+		<opt4>Sir Syed Ahmad Khan</opt4> 
+		<ca>3</ca> 
+		<ap>33,9,56,2</ap>
+	</quest> 
+	<quest>
+		<ques>In the 552 --- strong Lok Sabha, how many members are there from the Union Territories?</ques>
+		<opt1>10</opt1> 
+		<opt2>20</opt2> 
+		<opt3>30</opt3> 
+		<opt4>40</opt4> 
+		<ca>2</ca> 
+		<ap>8,81,11,0</ap>
+	</quest> 
+	<quest>
+		<ques>Which of the following personalities gave ‘The Laws of Heredity’?</ques>
+		<opt1>Robert Hook</opt1> 
+		<opt2>G.J. Mendel</opt2> 
+		<opt3>Charles Darwin</opt3> 
+		<opt4>William Harvey</opt4> 
+		<ca>2</ca> 
+		<ap>11,85,1,3</ap>
+	</quest> 
+	<quest>
+		<ques>Name the person who was also known as Deshbandhu.</ques>
+		<opt1>S. Radhakrishnan</opt1> 
+		<opt2>G.K. Gokhale</opt2> 
+		<opt3>Chittaranjan Das</opt3> 
+		<opt4>Madan Mohan Malviya</opt4> 
+		<ca>3</ca> 
+		<ap>14,7,57,22</ap>
+	</quest> 
+	<quest>
+		<ques>Which of the following is NOT the language enshrined in the eighth schedule of the Indian Constitution, as the language of the state?</ques>
+		<opt1>Nepali</opt1> 
+		<opt2>Kashmiri</opt2> 
+		<opt3>English</opt3> 
+		<opt4>Konkani</opt4> 
+		<ca>3</ca> 
+		<ap>15,0,83,2</ap>
+	</quest> 
+	<quest>
+		<ques>The capital of Uttarakhand is….</ques>
+		<opt1>Masoorie</opt1> 
+		<opt2>Dehra Dun</opt2> 
+		<opt3>Nainital</opt3> 
+		<opt4>None of these</opt4> 
+		<ca>2</ca> 
+		<ap>4,81,14,1</ap>
+	</quest> 
+	<quest>
+		<ques>Geet Govind is a famous creation of ……</ques>
+		<opt1>Bana Bhatt</opt1> 
+		<opt2>Kalidas</opt2> 
+		<opt3>Jayadev</opt3> 
+		<opt4>Bharat Muni</opt4> 
+		<ca>3</ca> 
+		<ap>27,3,65,5</ap>
+	</quest> 
+	<quest>
+		<ques>Which of the following represents the Finance Commissions that have been set-up so far?</ques>
+		<opt1>10</opt1> 
+		<opt2>11</opt2> 
+		<opt3>12</opt3> 
+		<opt4>13</opt4> 
+		<ca>4</ca> 
+		<ap>13,16,1,70</ap>
+	</quest> 
+	<quest>
+		<ques>World Trade Organization came into existence in……</ques>
+		<opt1>1992</opt1> 
+		<opt2>1993</opt2> 
+		<opt3>1994</opt3> 
+		<opt4>1995</opt4> 
+		<ca>4</ca> 
+		<ap>9,24,15,52</ap>
+	</quest> 
+	<quest>
+		<ques>According to the Constitution of India, which of the following is NOT one of the main organs of the Government?</ques>
+		<opt1>Legislature</opt1> 
+		<opt2>Bureaucracy</opt2> 
+		<opt3>Executive</opt3> 
+		<opt4>Judiciary</opt4> 
+		<ca>2</ca> 
+		<ap>5,87,8,0</ap>
+	</quest>
+	<quest>
+		<ques>Which of the following personalities was the first to climb Mount Everest twice?</ques>
+		<opt1>Tenzing Norway</opt1> 
+		<opt2>Tamba Tsheri</opt2> 
+		<opt3>Nawang Gombu</opt3> 
+		<opt4>Phu Dorjee</opt4> 
+		<ca>3</ca> 
+		<ap>13,4,70,13</ap>
+	</quest> 
+	<quest>
+		<ques>The controversial Tehri Dam was built over.</ques>
+		<opt1>Ganga</opt1> 
+		<opt2>Godavari</opt2> 
+		<opt3>Bhagirathi</opt3> 
+		<opt4>Narmada</opt4> 
+		<ca>3</ca> 
+		<ap>9,3,83,5</ap>
+	</quest> 
+	<quest>
+		<ques>Which of the following constitutional amendments was responsible for the inclusion of Konkani, Manipuri and Nepali languages in the eights schedule of the Constitution?</ques>
+		<opt1>68th amendment</opt1> 
+		<opt2>70th amendment</opt2> 
+		<opt3>71st amendment</opt3> 
+		<opt4>76th amendment</opt4> 
+		<ca>3</ca> 
+		<ap>33,4,49,14</ap>
+	</quest> 
+	<quest>
+		<ques>Vincent Van Gogh was a</ques>
+		<opt1>German Poet</opt1> 
+		<opt2>Dutch painter</opt2> 
+		<opt3>Polish scientist</opt3> 
+		<opt4>French musician</opt4> 
+		<ca>2</ca> 
+		<ap>12,84,0,4</ap>
+	</quest> 
+	<quest>
+		<ques>Who was the first premier of Pakistan?</ques>
+		<opt1>Liaquat Ali Khan</opt1> 
+		<opt2>Mohammad Ali Jinnah</opt2> 
+		<opt3>Ali Mohammad Khusro</opt3> 
+		<opt4>Mohammed Ayub Khan</opt4> 
+		<ca>1</ca> 
+		<ap>82,6,4,8</ap>
+	</quest> 
+	<quest>
+		<ques>Telephone was invented by…</ques>
+		<opt1>J.L. Baird</opt1> 
+		<opt2>Alexander Graham Bell</opt2> 
+		<opt3>K. Macmillan</opt3> 
+		<opt4>None of these</opt4> 
+		<ca>2</ca> 
+		<ap>5,76,15,4</ap>
+	</quest> 
+	<quest>
+		<ques>The famous Chinese traveler Fahien came to India during the reign of….</ques>
+		<opt1>Harshvardhan</opt1> 
+		<opt2>Chandragupta II</opt2> 
+		<opt3>Kanishka</opt3> 
+		<opt4>Samudragupta</opt4> 
+		<ca>2</ca> 
+		<ap>37,43,13,7</ap>
+	</quest> 
+	<quest>
+		<ques>Name the Governor-General and the first Viceroy of India during whose tenure the 1857 revolt took place.</ques>
+		<opt1>Lord Rippon</opt1> 
+		<opt2>Lord Curzon</opt2> 
+		<opt3>Lord Canning</opt3> 
+		<opt4>Lord Harding</opt4> 
+		<ca>3</ca> 
+		<ap>6,18,69,7</ap>
+	</quest> 
+	<quest>
+		<ques>The absorption of ink by a blotting paper is based on….</ques>
+		<opt1>Newton third law of motion</opt1> 
+		<opt2>Bernoulli’s theorem</opt2> 
+		<opt3>Pascal’s law</opt3> 
+		<opt4>Capillary action</opt4> 
+		<ca>4</ca> 
+		<ap>35,3,1,61</ap>
+	</quest> 
+	<quest>
+		<ques>The point in the orbit of any artificial satellite of earth which is at the maximum distance from the earth is known as….</ques>
+		<opt1>Perigee</opt1> 
+		<opt2>Aphelion</opt2> 
+		<opt3>Antipodes</opt3> 
+		<opt4>Apogee</opt4> 
+		<ca>4</ca> 
+		<ap>5,21,20,54</ap>
+	</quest> 
+</kbc>
