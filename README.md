@@ -1,3 +1,1 @@
-# shikhar97gupta.github.io
-
-My Portfolio.
+# My Portfolio
